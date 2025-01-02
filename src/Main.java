@@ -23,5 +23,6 @@ public class Main {
         System.out.println("OS Architecture: " + osArch);
         System.out.println("Java Version: " + javaVersion);
         System.out.println("User Name: " + userName);
+        System.out.println("How is the Josh now ");
     }
 }
