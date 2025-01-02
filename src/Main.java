@@ -16,6 +16,7 @@ public class Main {
         String userName = System.getProperty("user.name");
 
         // Print the information
+        System.out.println("Hello User Your Current information is below");
         System.out.println("Current Date and Time: " + formattedDate);
         System.out.println("Operating System: " + osName);
         System.out.println("OS Version: " + osVersion);
