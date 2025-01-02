@@ -1,7 +1,7 @@
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class SystemInfo {
+public class Main {
     public static void main(String[] args) {
         // Get current date and time
         LocalDateTime now = LocalDateTime.now();
