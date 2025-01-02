@@ -5,7 +5,7 @@ FROM openjdk:17-jdk-alpine
 WORKDIR /app
 
 # Copy the source code from the host machine to the container
-COPY main.java /aap/main.java
+COPY main.java /app/main.java
 
 # Compile the application code
 RUN javac main.java
